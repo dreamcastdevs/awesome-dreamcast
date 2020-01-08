@@ -10,36 +10,35 @@ Optimizing TnL Loops
 ## Vector Math Instructions
 The SH4 CPU featrues some nice builtin math operations. I saw some people trying to speed up their code by using approximations with integer codes and other tricks. That may work but on the SH4 good code that makes use of the builtin instructions will outperform in the most situations. There is not much sense in trying to replace that functions at all since they are already pretty fast.
 
-`FIPR`
-Computes the dot product of two 4D vectors
+### `FIPR`
+Computes the dot product of two 4D vectors `x1*x2 + y1*y2 + z1*z2 + w1*w2`
+Often used in lighting formulas.
 
-`x1*x2 + y1*y2 + z1*z2 + w1*w2` Often used in lighting formulas.
-
-`FTRV` Muliplies a 4x4 matrix with a 4D vector
+### `FTRV`
+Muliplies a 4x4 matrix with a 4D vector
 
 Usually used to transform vertices, but can also be used to compute "a * b + c" for four floats in parallel. However, the FMAC may perform better in particular situations because the matrix needs to be setup in a special way.
 
-`FSRRA`
+### `FSRRA`
 Approximates `1.0f / sqrt (x)`
-
 Usually used to normalize a vector
 
-`FSCA`
+### `FSCA`
 Approximates the sine and cosine.
 
 Comes in handy when constructing rotation matrices. This one takes the angle as an integer in the range 0...32767 so it's best to redefine angle representations throughout the whole code so that an angle of PI = 16384 or something. This would save the required conversion (range scale and truncation to integer).
 
-`FSQRT`
+### `FSQRT`
 Computes `sqrt (x)`
 
 This is actually not a special instruction but it's there and comes in handy sometimes although it's slower than FSRRA so rewrite your math formulas (e.g. range falloff lighting) and try to use FSRRA where applicable instead.
 
-`FMAC`
+### `FMAC`
 Computes `a * b + c`
 
 This is as fast as normal float addition, subtraction or multiplication, so basically you pay one and get another operation for free. Comes in handy when doing linear interpolation (polygon clipping, table lookups etc).
 
-`FMOV` (64 bit)
+### `FMOV` (64 bit)
 
 This instruction is very important since it can access the second banked set of the FPU registers that are normally used to hold the vector transformation matrix. It's best to avoid switching the fmov mode very often, so rearrange your data layout. It also requires the data to be 64 bit aligned (8 bytes).
 
@@ -50,27 +49,27 @@ The cache is very very important. It is so important that it may either save you
 First of all it is important to understand how the cache works. It is a direct mapped cache, i.e. the cache lines are mapped directly onto the addresses of the memory and since it's only 16 KB small the memory at address (n) is mapped onto the same cache line as the location at address (n + 1024*16) which will result in a cache miss. So it's best to avoid such situations which is not always possible especially when working with large amounts of data, e.g. vertex data.
 That's where the powerful cache control instructions come in...
 
-`PREF`
+### `PREF`
 Prefetches a cache line for the specified address
 
 Use this to prefetch the next element in processing loops for large data buffers. The prefetch delay can be hidden by prefetching the next element at the beginning of the loop.
 
-`OCBWB`
+### `OCBWB`
 Writes back a cache line
 
 This one is often used when cache content and memory content need to be synchronized explicitely for DMA transfers since the DMA controllers operate directly on memory.
 
-`OCBI`
+### `OCBI`
 Invalidates a cache line
 
 This is also used often with DMA functions before reading a memory area that had just been rewritten by a DMA controller. Another way would be to access the memory area as uncached but this might slow down everything.
 
-`OCBP`
+### `OCBP`
 Purges a cache line (write back & invalidate)
 
 Use this one after your processing loop definitely has finished its operations for one element. The effect is very similar to the store queues except that you cannot read anything from the store queue lines and can write only 32 or 64 bits at once.
 
-`MOVCA.L`
+### `MOVCA.L`
 Allocates a cache line for the specified address
 
 This one is very important when processing large buffers. While the OCBP instruction can be left out wihtout any performance drops this is does not apply for MOVCA.L.
