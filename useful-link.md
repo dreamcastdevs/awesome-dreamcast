@@ -2,6 +2,7 @@
 
 ## General
 * [Dreamcast architecture](https://copetti.org/projects/consoles/dreamcast/) - A quite nice overview of how the dreamcast work. Not so technical.
+* [Kochise Bare Metal Docs](https://github.com/Kochise/dreamcast-docs) - Excellent source of document. Some of them are not in the legal greyness.
 
 ## SH4
 
