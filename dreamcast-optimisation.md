@@ -2,7 +2,7 @@
 These notes is mostly taken from the good advice of all the Dreamcast scholars (Ian Micheal, Moop, Mrneo, and more). The raw notes are in the notes folder.function
 
 ## Dan Potter's GCC-SH4 tips
-#### Use local variables.
+### Use local variables.
 
    Global variables are slow - to retrieve the value, the SH4 typically
    must execute:
@@ -16,7 +16,7 @@ These notes is mostly taken from the good advice of all the Dreamcast scholars (
    are even faster because the first four integers parameters are passed
    in r4-r7 and first eight floating-point parameters in fr4-fr11**.
 
-#### Write small functions.
+### Write small functions.
 
    We've noticed GCC generates very pessimal code when it starts to
    spill registers, so try to avoid doing too much in one function.
@@ -24,7 +24,7 @@ These notes is mostly taken from the good advice of all the Dreamcast scholars (
    A function which exceeds more than about a hundred lines should
    be broken into smaller functions.
 
-#### Use struct copies (instead of copying individual elements of a struct).
+### Use struct copies (instead of copying individual elements of a struct).
 
     GCC and G++ generate code with weak scheduling when copying a struct
     by individual elements.
