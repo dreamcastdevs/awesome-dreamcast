@@ -1,5 +1,5 @@
 # Dreamcast optimisation
-These notes is mostly taken from the good advice of all the Dreamcast scholars (Ian Micheal, Moop, Mrneo, and more). The raw notes are in the notes folder.function
+These notes is mostly taken from the good advice of all the Dreamcast scholars (Ian Micheal, Moop, Mrneo, and more). The original documents are in the [notes](https://github.com/dreamcastdevs/awesome-dreamcast/tree/master/notes) folder.
 
 ## Dan Potter's GCC-SH4 tips
 ### Use local variables.
