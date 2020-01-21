@@ -27,10 +27,12 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Audio
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
 
+
 ## VMU
 * [CrayonUtil](https://github.com/Protofall/Crayon-Utilities) - Mostly tools for VMU icons, but also some texture converters. Made by [Protofall](https://github.com/Protofall)
 
 ## Utilities
+* [DreamHAL](https://github.com/Moopthehedgehog/DreamHAL) - Moopthehedgehog's abstraction layer for SH4. Allow for faster maths.
 * [LibFatFS](https://github.com/andressbarajas/libfatfs) - A FAT16 and FAT32 lib to use with the SD card adapter.
 * [Prism](https://github.com/CaptainDreamcast/prism) - CaptainDreamcast's set of utilities for Physics, files loading, etc. (*untested*)
 
