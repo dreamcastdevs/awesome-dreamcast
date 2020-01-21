@@ -24,7 +24,6 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [LMP3D](https://github.com/Kannagi/LMP3D) - A multi-platform 3D Lib. (*Looks abandoned but might be good for research*)
 * [DreamROQ](https://github.com/multimediamike/dreamroq) - A ROQ video player. (*Stable, no sound*)
 
-
 ## Audio
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
 
@@ -38,6 +37,9 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Memory Management
 
 ## Debugging
+* [Dcload-ip with DHCP](https://github.com/Moopthehedgehog/dcload-ip) - Launch game through your BBA, with DHCP support
+* [Dcload-ip](https://github.com/sizious/dcload-ip) - Launch game through your BBA. Classic program by Sizious.
+
 
 ## Random
 * [Homebrew Tests (Protofall)](https://github.com/Protofall/Homebrew-Tests)
