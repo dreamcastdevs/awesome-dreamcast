@@ -3,7 +3,7 @@ A collection of useful link and tool for Sega Dreamcast development
 Please check the *useful-link.md* for the dreamcast dev bookmarks.
 
 ## Tutorial
-* [DCEmu Developement Wiki](https://dcemulation.org/index.php?title=Development) - Great resource to start. Somewhat incomplete in certain aspect.
+* [dreamcast.wiki](https://dreamcast.wiki/Dreamcast.wiki) - Great resource to start, constantly updated with new info (2023).
 * [Dreamcast-tutorial Github](https://github.com/dreamcastdevs/dreamcast_tutorial) - A new-ish sets of tutorial with code example. Covers the basic (installing the toolchain, graphics, audio, controller)
 
 ## Framework
