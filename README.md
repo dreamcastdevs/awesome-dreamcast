@@ -51,3 +51,4 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [Dreamcast Controller USB Pico](https://github.com/OrangeFox86/DreamcastControllerUsbPico) - Convert your Dreamcast Controller to USB.
 * [MaplePad](https://github.com/mackieks/MaplePad) - Virtual Dreamcast Controller, VMU and more!
 * [libMaple](https://github.com/Xerxes3rd/libmaple) - Arduino to Maple commmunication
+* [DC motherboard explorer](http://yam.20to4.net/dreamcast/va1.html) - Motherboard test pads map
