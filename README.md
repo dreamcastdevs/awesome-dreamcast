@@ -12,6 +12,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [BennuGD](http://wiki.bennugd.org/index.php?title=Bennu_Wiki) - A multi-platform engine
 * [WincastCE](https://github.com/FaucetDC/WincastCE) - An experimental windows CE shell (?)
 * [DreamShell](https://github.com/DC-SWAT/DreamShell) - The popular alternative operating system for loading games/app from SD Card and IDE Drive
+* [libGimbal](https://github.com/gyrovorbis/libgimbal) - Extended standard library, unit test framework, and core app utilities for DC and more
 
 ## Engine
 * [Simulant](https://simulant-engine.appspot.com) - A general purpose 2D-3D engine in active developement.
@@ -30,7 +31,13 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
 
 ## VMU
+* [VMU Development Resource](https://dreamcast.wiki/VMU_development) - Massive, up-to-date compilation of VMU development resources
+* [Beginner Tutorials](https://github.com/Candle-Electric/VMU_Development_Beginners-Tutorial/) - Tutorials for beginning VMU development by [Candle-Electric](https://github.com/Candle-Electric)
 * [CrayonUtil](https://github.com/Protofall/Crayon-Utilities) - Mostly tools for VMU icons, but also some texture converters. Made by [Protofall](https://github.com/Protofall)
+* [Waterbear](https://github.com/wtetzner/waterbear) - Cross-platform assembler and disassembler for the VMU by [Wtetzner](https://github.com/wtetzner)
+* [libElysianVMU](https://github.com/gyrovorbis/libevmu) - Platform-independent VMU emulator core by [Falco Girgis](https://github.com/gyrovorbis)
+* [ADVPM](https://github.com/jvsTSX/ADVM) - General-purpose audio, music, and SFX driver by [jvsTSX](https://github.com/jvsTSX)
+* [Tiny 3D Engine](https://github.com/gyrovorbis/tiny3dengine) - Full-fledged 3D rendering engine by The Rockin'-B
 
 ## Utilities
 * [DreamHAL](https://github.com/Moopthehedgehog/DreamHAL) - Moopthehedgehog's abstraction layer for SH4. Allow for faster maths.
