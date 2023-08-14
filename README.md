@@ -32,6 +32,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 
 ## VMU
 * [VMU Development Resource](https://dreamcast.wiki/VMU_development) - Massive, up-to-date compilation of VMU development resources
+* [Beginner Tutorials](https://github.com/Candle-Electric/VMU_Development_Beginners-Tutorial/) - Tutorials for beginning VMU development by [Candle-Electric](https://github.com/Candle-Electric)
 * [CrayonUtil](https://github.com/Protofall/Crayon-Utilities) - Mostly tools for VMU icons, but also some texture converters. Made by [Protofall](https://github.com/Protofall)
 * [Waterbear](https://github.com/wtetzner/waterbear) - Cross-platform assembler and disassembler for the VMU by [Wtetzner](https://github.com/wtetzner)
 * [libElysianVMU](https://github.com/gyrovorbis/libevmu) - Platform-independent VMU emulator core by [Falco Girgis](https://github.com/gyrovorbis)
