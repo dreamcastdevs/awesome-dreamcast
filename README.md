@@ -50,7 +50,7 @@ example for how to use VQ textures as a paletted framebuffer.  Useful for emulat
 * [Blender MS3D Exporter](https://gitlab.com/simulant/blender-ms3d-exporter) - Export your 3d Model in a Dreamcast friendly format.
 
 ## Emulators
-* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, newly updatd for modern KOS  
+* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, freshly updated for modern KOS  
 
 ## Testing and debugging
 * [dcprof](https://gitlab.com/simulant/dcprof) - gprof compatible sampling profiler for the Sega Dreamcast + KallistiOS.
