@@ -27,6 +27,8 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [LMP3D](https://github.com/Kannagi/LMP3D) - A multi-platform 3D Lib. (*Looks abandoned but might be good for research*)
 * [DreamROQ](https://github.com/multimediamike/dreamroq) - A ROQ video player. (*No FPS lock, no sound*)
 * [libDreamroq](https://github.com/dreamcastdevs/libdreamroq) - A library version of ROQ video player, with sound.
+* [dreamcast-samples](https://github.com/maslevin/dreamcast-samples) - A repository containing a Dreamcast-specific graphics 
+example for how to use VQ textures as a paletted framebuffer.  Useful for emulators and procedural texture generation.
 
 ## Audio
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
@@ -46,6 +48,9 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [Prism](https://github.com/CaptainDreamcast/prism) - CaptainDreamcast's set of utilities for Physics, files loading, etc. (*untested*)
 * [mkdcdisc](https://gitlab.com/simulant/mkdcdisc) - Command line tool for generating CDI images designed for the SEGA Dreamcast
 * [Blender MS3D Exporter](https://gitlab.com/simulant/blender-ms3d-exporter) - Export your 3d Model in a Dreamcast friendly format.
+
+## Emulators
+* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, newly updatd for modern KOS  
 
 ## Testing and debugging
 * [dcprof](https://gitlab.com/simulant/dcprof) - gprof compatible sampling profiler for the Sega Dreamcast + KallistiOS.
