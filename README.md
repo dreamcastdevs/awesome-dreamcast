@@ -12,7 +12,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 
 ## Applications
 * [DreamShell](https://github.com/DC-SWAT/DreamShell) - The popular alternative operating system for loading games/app from SD Card and IDE Drive
-* [240pTestSuite](https://github.com/ArtemioUrbina/240pTestSuite) - App to help in the evaluation of upscalers, upscan converters, line doubler, and TV processing of 480p video.
+* [240pTestSuite](https://github.com/ArtemioUrbina/240pTestSuite) - App containing a bunch of test suites for the Sega Dreamcast's hardware
 
 ## Emulators
 * [Bloom](https://github.com/pcercuei/bloom) - WIP PSOne emulator for Dreamcast by [zcrc](https://github.com/pcercuei/)
