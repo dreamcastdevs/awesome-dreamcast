@@ -17,7 +17,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Emulators
 * [Bloom](https://github.com/pcercuei/bloom) - WIP PSOne emulator for Dreamcast by [zcrc](https://github.com/pcercuei/)
 * [VICE](https://github.com/GPF/VICE) - Dreamcast port of the VICE Commodore emulator by [GPF](https://github.com/GPF)
-* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, freshly updated for modern KOS  
+* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, freshly updated for modern KOS by [maslevin](https://github.com/maslevin)
 
 ## Engines
 * [Simulant](https://simulant-engine.appspot.com) - A general purpose 2D-3D engine in active developement.
