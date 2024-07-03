@@ -17,6 +17,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Emulators
 * [Bloom](https://github.com/pcercuei/bloom) - WIP PSOne emulator for Dreamcast by [zcrc](https://github.com/pcercuei/)
 * [VICE](https://github.com/GPF/VICE) - Dreamcast port of the VICE Commodore emulator by [GPF](https://github.com/GPF)
+* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, freshly updated for modern KOS  
 
 ## Engines
 * [Simulant](https://simulant-engine.appspot.com) - A general purpose 2D-3D engine in active developement.
@@ -65,9 +66,6 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [Prism](https://github.com/CaptainDreamcast/prism) - CaptainDreamcast's set of utilities for Physics, files loading, etc. (*untested*)
 * [mkdcdisc](https://gitlab.com/simulant/mkdcdisc) - Command line tool for generating CDI images designed for the SEGA Dreamcast
 * [Blender MS3D Exporter](https://gitlab.com/simulant/blender-ms3d-exporter) - Export your 3d Model in a Dreamcast friendly format.
-
-## Emulators
-* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, freshly updated for modern KOS  
 
 ## Testing and Debugging
 * [dcprof](https://gitlab.com/simulant/dcprof) - gprof compatible sampling profiler for the Sega Dreamcast + KallistiOS.
