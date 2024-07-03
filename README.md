@@ -44,7 +44,8 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
 
 ## Languages
-* [Ada](https://github.com/dkm/ada-dreamcast-helloworld) - Setup instructions and Hello World example using the Ada language on the Dreamcast
+* [Ada Hello World](https://github.com/dkm/ada-dreamcast-helloworld) - Hello World example using the Ada language by [Marc Poulhiès](https://poulhies.fr/)
+* [dkos](https://github.com/LunaTheFoxgirl/dkos) - KallistiOS bindings for the D language by [LunaTheFoxGirl](https://github.com/LunaTheFoxgirl/dkos/commits?author=LunaTheFoxgirl)
 
 ## VMU
 * [VMU Development Resource](https://dreamcast.wiki/VMU_development) - Massive, up-to-date compilation of VMU development resources
