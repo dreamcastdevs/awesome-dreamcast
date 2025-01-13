@@ -17,6 +17,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Emulators
 * [Bloom](https://github.com/pcercuei/bloom) - WIP PSOne emulator for Dreamcast by [zcrc](https://github.com/pcercuei/)
 * [VICE](https://github.com/GPF/VICE) - Dreamcast port of the VICE Commodore emulator by [GPF](https://github.com/GPF)
+* [FrNES](https://github.com/maslevin/FrNES) - NES emulator for the Sega Dreamcast, freshly updated for modern KOS by [maslevin](https://github.com/maslevin)
 
 ## Engines
 * [Simulant](https://simulant-engine.appspot.com) - A general purpose 2D-3D engine in active developement.
@@ -39,6 +40,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [LMP3D](https://github.com/Kannagi/LMP3D) - A multi-platform 3D Lib. (*Looks abandoned but might be good for research*)
 * [DreamROQ](https://github.com/multimediamike/dreamroq) - A ROQ video player. (*No FPS lock, no sound*)
 * [libDreamroq](https://github.com/dreamcastdevs/libdreamroq) - A library version of ROQ video player, with sound.
+* [dreamcast-samples](https://github.com/maslevin/dreamcast-samples) - A repository containing a Dreamcast-specific graphics example for how to use VQ textures as a paletted framebuffer.  Useful for emulators and procedural texture generation.
 
 ## Audio
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
