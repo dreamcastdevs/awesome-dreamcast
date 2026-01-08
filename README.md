@@ -45,6 +45,9 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Audio
 * [ALdc](https://gitlab.com/simulant/ALdc) - A OpenAL 1.2 implementation started by Kazade
 
+## Math
+* [SH4ZAM](https://github.com/gyrovorbis/sh4zam) - Accelerated math and matrix library for the SH4, based on optimized routines from the GTA3 and VC DC ports.
+
 ## Languages
 * [Ada Hello World](https://github.com/dkm/ada-dreamcast-helloworld) - Hello World example using the Ada language by [Marc Poulhiès](https://poulhies.fr/)
 * [dkos](https://github.com/LunaTheFoxgirl/dkos) - KallistiOS bindings for the D language by [LunaTheFoxGirl](https://github.com/LunaTheFoxgirl/dkos/commits?author=LunaTheFoxgirl)
