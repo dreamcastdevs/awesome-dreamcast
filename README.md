@@ -25,7 +25,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [radQuake5.0](https://github.com/ianmicheal/Radquake5.0) - Quake engine by Ian Micheal
 * [DolmexicaInfinite](https://github.com/CaptainDreamcast/DolmexicaInfinite) - A Mugen-like engine for fighter games
 * [Voxel Engine](https://github.com/ianmicheal/dreamcast-voxelspace-engine) - A Voxel engine
-* [Antiruins](https://gitlab.com/lerabot/antiruins) - 2D Engine, only uses Lua and doesn't require the Dreamcast Toolchain
+* [ANTIRUINS Engine]([https://bertholet.itch.io/antiruins]) - Precompiled 2D engine that uses Lua for game developpement.
 
 ## Frameworks
 * [KOS](https://sourceforge.net/projects/cadcdev/) - The de-facto OS used in most of homebrew/indie project.
