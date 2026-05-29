@@ -9,6 +9,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Games
 * [ClassiCube](https://github.com/ClassiCube/ClassiCube) - Custom Minecraft Classic client with online play
 * [Mario64](https://github.com/mrneo240/sm64-port) - Port of the N64 Classic, Mario 64, by [MrNeo](https://github.com/mrneo240)
+* [FNF-DC](https://github.com/raycasted/fnf-raylib/tree/dreamcast) - Dreamcast port of Friday Night Funkin
 
 ## Applications
 * [DreamShell](https://github.com/DC-SWAT/DreamShell) - The popular alternative operating system for loading games/app from SD Card and IDE Drive
