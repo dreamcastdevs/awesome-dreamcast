@@ -31,7 +31,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 ## Frameworks
 * [KOS](https://sourceforge.net/projects/cadcdev/) - The de-facto OS used in most of homebrew/indie project.
 * [DreamSDK](https://www.dreamsdk.org) - A multitool environment made for Windows. Maintained by Sizious
-* [BennuGD](http://wiki.bennugd.org/index.php?title=Bennu_Wiki) - A multi-platform engine
+* [BennuGD](https://www.bennugd.org/) - A multi-platform engine
 * [WincastCE](https://github.com/FaucetDC/WincastCE) - An experimental windows CE shell (?)
 * [libGimbal](https://github.com/gyrovorbis/libgimbal) - Extended standard library, unit test framework, and core app utilities for DC and more
 * [SDL/DreamHal/GLdc](https://github.com/ianmicheal/SDL-dreamhal--GLDC) - SDL library with DreamHal optimizations and OpenGL interop
@@ -54,7 +54,6 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [dkos](https://github.com/LunaTheFoxgirl/dkos) - KallistiOS bindings for the D language by [LunaTheFoxGirl](https://github.com/LunaTheFoxgirl/dkos/commits?author=LunaTheFoxgirl)
 
 ## VMU
-* [VMU Development Resource](https://dreamcast.wiki/VMU_development) - Massive, up-to-date compilation of VMU development resources
 * [Beginner Tutorials](https://github.com/Candle-Electric/VMU_Development_Beginners-Tutorial/) - Tutorials for beginning VMU development by [Candle-Electric](https://github.com/Candle-Electric)
 * [CrayonUtil](https://github.com/Protofall/Crayon-Utilities) - Mostly tools for VMU icons, but also some texture converters. Made by [Protofall](https://github.com/Protofall)
 * [Waterbear](https://github.com/wtetzner/waterbear) - Cross-platform assembler and disassembler for the VMU by [Wtetzner](https://github.com/wtetzner)
@@ -65,7 +64,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [Monaco GP](https://github.com/Candle-Electric/Monaco_GP) - VMU port of hte 1979 arcade game
 
 ## Utilities
-* [DreamHAL](https://github.com/Moopthehedgehog/DreamHAL) - Moopthehedgehog's abstraction layer for SH4. Allow for faster maths.
+* [DreamHAL](https://github.com/sega-dreamcast/dreamhal) - Moopthehedgehog's abstraction layer for SH4. Allow for faster maths.
 * [LibFatFS](https://github.com/andressbarajas/libfatfs) - A FAT16 and FAT32 lib to use with the SD card adapter.
 * [Prism](https://github.com/CaptainDreamcast/prism) - CaptainDreamcast's set of utilities for Physics, files loading, etc. (*untested*)
 * [mkdcdisc](https://gitlab.com/simulant/mkdcdisc) - Command line tool for generating CDI images designed for the SEGA Dreamcast
@@ -73,7 +72,6 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 
 ## Testing and Debugging
 * [dcprof](https://gitlab.com/simulant/dcprof) - gprof compatible sampling profiler for the Sega Dreamcast + KallistiOS.
-* [Dcload-ip with DHCP](https://github.com/Moopthehedgehog/dcload-ip) - Launch game through your BBA, with DHCP support
 * [Dcload-ip](https://github.com/sizious/dcload-ip) - Launch game through your BBA. Classic program by Sizious.
 
 ## Random
