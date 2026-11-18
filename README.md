@@ -10,6 +10,7 @@ Please check the *useful-link.md* for the dreamcast dev bookmarks.
 * [ClassiCube](https://github.com/ClassiCube/ClassiCube) - Custom Minecraft Classic client with online play
 * [Mario64](https://github.com/mrneo240/sm64-port) - Port of the N64 Classic, Mario 64, by [MrNeo](https://github.com/mrneo240)
 * [FNF-DC](https://github.com/raycasted/fnf-raylib/tree/dreamcast) - Dreamcast port of Friday Night Funkin
+* [DevilutionX Dreamcast Ultimate](https://github.com/BrianBGamblin/devilutionx-dreamcast-ultimate) - Diablo and Hellfire on the Dreamcast (based on DevilutionX): lighting on the PVR, 3-player local co-op, VMU saves and BBA play; a disc builder uses your own game files, by [Brian Gamblin](https://github.com/BrianBGamblin)
 
 ## Applications
 * [DreamShell](https://github.com/DC-SWAT/DreamShell) - The popular alternative operating system for loading games/app from SD Card and IDE Drive
